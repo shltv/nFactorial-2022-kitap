@@ -1,0 +1,49 @@
+#header {
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+
+    background-color: #F8F8FF;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    }
+
+.HeaderComponent {
+    height: 100%;
+    border: 2px dotted green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Icons {
+    width: 80%;
+    height: 80%;
+    margin: 0px 10px 0px 10px;
+    border: 2px solid pink;
+}
+
+@media (max-width: 500px) {
+    .HeaderComponent {
+            height: 100%;
+            border: 2px dotted red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    .Icons {
+            background-color: yellow;
+            width: 37px;
+            height: 37px;
+            margin: 0px 10px 0px 10px;
+            border: 2px solid blue;
+        }
+}
+
+#logo {
+    height: 100%;
+    width: auto;
+}

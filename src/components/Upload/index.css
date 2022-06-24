@@ -20,7 +20,7 @@ p {
     #uploadPart {
             display: flex;
             flex-direction: column;
-            padding: 30px;
+            padding: 16px;
         }
     
         #imageAndButton {
@@ -32,6 +32,9 @@ p {
             position: absolute;
             margin-left: 40%;
             margin-top: 25%;
+
+            width: 40%;
+            text-align: center;
             font-family: 'Rubik', 'Roboto', sans-serif;
             font-weight: bold;
             font-size: 30px;

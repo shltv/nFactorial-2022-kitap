@@ -3,11 +3,13 @@
     width: 100vw;
     height: 8vh;
 
-    background-color: #F8F8FF;
+    background-color: #e6f3f0;
 
     display: flex;
     justify-content: space-between;
     align-content: center;
+
+    border-bottom: 1px solid #D8DFDD;
     }
 
 .HeaderComponent {
@@ -20,7 +22,7 @@
 .Icons {
     width: 80%;
     height: 80%;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 5px 0px 5px;
 }
 
 @media (max-width: 500px) {
